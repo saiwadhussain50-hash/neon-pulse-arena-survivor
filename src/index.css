@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #07080f;
+    color: #e2e8f0;
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: "Outfit", system-ui, sans-serif;
+}
+
+.font-mono-num {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  font-variant-numeric: tabular-nums;
+}
